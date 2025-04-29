@@ -13,3 +13,10 @@ print(len(x)) #len is the length of the collection
 
 for i in range(10):
     print(i)
+
+x =[3,4,42,3,2,4]
+for i,element in enumerate(x):
+    print(i,element)
+
+y=[0,1,2,3,4,5,6,7,8]
+z=['hi','hello','goodbye','cya','sure']
